@@ -1,0 +1,3065 @@
+[
+  {
+    "company_id": "C001",
+    "company_name": "Modern Associates",
+    "sector": "Foundry",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.939407740622908,
+    "lng": 76.85466329957765,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 551,
+        "price_per_kg": 3.7,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from foundry operations, approximately 551kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 3.5,
+    "total_transactions": 27
+  },
+  {
+    "company_id": "C002",
+    "company_name": "Aditya Limited",
+    "sector": "Chemical Plant",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.208158274006696,
+    "lng": 72.27529925580683,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 1486,
+        "price_per_kg": 4.1,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from textile mill operations, approximately 1486kg available, grade A, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "wood_chips"
+    ],
+    "verified": true,
+    "rating": 4.5,
+    "total_transactions": 43
+  },
+  {
+    "company_id": "C003",
+    "company_name": "Mahindra Solutions",
+    "sector": "Food Processing",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.028912520333208,
+    "lng": 72.55717026575387,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 259,
+        "price_per_kg": 158.0,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from packaging manufacturer operations, approximately 259kg available, grade B, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 118
+  },
+  {
+    "company_id": "C004",
+    "company_name": "Global Manufacturing",
+    "sector": "Automobile Parts",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.179457991140627,
+    "lng": 80.43454100447322,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 1863,
+        "price_per_kg": 27.7,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from food processing operations, approximately 1863kg available, grade A, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "wood_chips",
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 110
+  },
+  {
+    "company_id": "C005",
+    "company_name": "National Limited",
+    "sector": "Furniture Manufacturer",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.323083188918858,
+    "lng": 73.99417607877021,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 808,
+        "price_per_kg": 17.2,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from furniture manufacturer operations, approximately 808kg available, grade B, located in Pune, Maharashtra"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 596,
+        "price_per_kg": 6.4,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from furniture manufacturer operations, approximately 596kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "pet_flakes",
+      "copper_wire"
+    ],
+    "verified": false,
+    "rating": 4.1,
+    "total_transactions": 118
+  },
+  {
+    "company_id": "C006",
+    "company_name": "Reliance Works",
+    "sector": "Chemical Plant",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.44381316312693,
+    "lng": 77.35038167451134,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 164,
+        "price_per_kg": 23.0,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from automobile parts operations, approximately 164kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "pcb_scrap",
+      "fly_ash"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 27
+  },
+  {
+    "company_id": "C007",
+    "company_name": "United Works",
+    "sector": "Food Processing",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.64374030308424,
+    "lng": 76.93409245549438,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 592,
+        "price_per_kg": 2.7,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from foundry operations, approximately 592kg available, grade B, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1199,
+        "price_per_kg": 6.1,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from foundry operations, approximately 1199kg available, grade A, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "copper_wire"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 11
+  },
+  {
+    "company_id": "C008",
+    "company_name": "Kalyan Manufacturing",
+    "sector": "Paper Mill",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.733571571903923,
+    "lng": 86.50057282814406,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 377,
+        "price_per_kg": 456.8,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from paper mill operations, approximately 377kg available, grade A, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 5.0,
+    "total_transactions": 110
+  },
+  {
+    "company_id": "C009",
+    "company_name": "Aditya Industries",
+    "sector": "Foundry",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.301511764226916,
+    "lng": 72.73573343045067,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 278,
+        "price_per_kg": 168.8,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from construction materials operations, approximately 278kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "wood_chips",
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 3.8,
+    "total_transactions": 116
+  },
+  {
+    "company_id": "C010",
+    "company_name": "Kalyan Solutions",
+    "sector": "Electronics Assembly",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.232086045431497,
+    "lng": 74.11415916975878,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 380,
+        "price_per_kg": 425.0,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from cement plant operations, approximately 380kg available, grade A, located in Pune, Maharashtra"
+      },
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 1939,
+        "price_per_kg": 45.4,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from automobile parts operations, approximately 1939kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "fly_ash"
+    ],
+    "verified": true,
+    "rating": 4.7,
+    "total_transactions": 39
+  },
+  {
+    "company_id": "C011",
+    "company_name": "Pioneer Manufacturing",
+    "sector": "Cement Plant",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.04212370171771,
+    "lng": 72.34685630691226,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1989,
+        "price_per_kg": 2.6,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from foundry operations, approximately 1989kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 21
+  },
+  {
+    "company_id": "C012",
+    "company_name": "Mahindra Pvt Ltd",
+    "sector": "Plastic Moulding",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.14109168483468,
+    "lng": 72.67984336819961,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1544,
+        "price_per_kg": 3.2,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from foundry operations, approximately 1544kg available, grade A, located in Surat, Gujarat"
+      },
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 688,
+        "price_per_kg": 11.6,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from furniture manufacturer operations, approximately 688kg available, grade B, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "used_lubricant"
+    ],
+    "verified": false,
+    "rating": 3.5,
+    "total_transactions": 70
+  },
+  {
+    "company_id": "C013",
+    "company_name": "Bharat Solutions",
+    "sector": "Packaging Manufacturer",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.030993671885156,
+    "lng": 72.43848635837873,
+    "surplus": [
+      {
+        "material_type": "aluminum_scrap",
+        "material_label": "Aluminium Scrap",
+        "quantity_kg": 1342,
+        "price_per_kg": 82.4,
+        "emission_factor": 9.2,
+        "sector": "metals",
+        "description": "Aluminium Scrap surplus from packaging manufacturer operations, approximately 1342kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 92
+  },
+  {
+    "company_id": "C014",
+    "company_name": "JSW Pvt Ltd",
+    "sector": "Paint Manufacturer",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 22.85704550967591,
+    "lng": 75.96171872837597,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 883,
+        "price_per_kg": 163.3,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from packaging manufacturer operations, approximately 883kg available, grade B, located in Indore, MP"
+      },
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 1399,
+        "price_per_kg": 17.6,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from paper mill operations, approximately 1399kg available, grade B, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "fly_ash"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 51
+  },
+  {
+    "company_id": "C015",
+    "company_name": "National Pvt Ltd",
+    "sector": "Cement Plant",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "lat": 31.1178094628571,
+    "lng": 75.88749518746991,
+    "surplus": [
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 1148,
+        "price_per_kg": 21.7,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from paper mill operations, approximately 1148kg available, grade B, located in Ludhiana, Punjab"
+      },
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 425,
+        "price_per_kg": 2.8,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from textile mill operations, approximately 425kg available, grade B, located in Ludhiana, Punjab"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets"
+    ],
+    "verified": false,
+    "rating": 5.0,
+    "total_transactions": 107
+  },
+  {
+    "company_id": "C016",
+    "company_name": "Jindal Industries",
+    "sector": "Construction Materials",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.00338387138615,
+    "lng": 73.16888530626784,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 1044,
+        "price_per_kg": 417.7,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from paint manufacturer operations, approximately 1044kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.7,
+    "total_transactions": 58
+  },
+  {
+    "company_id": "C017",
+    "company_name": "Bharat Limited",
+    "sector": "Electronics Assembly",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.17191022975171,
+    "lng": 73.04273193522897,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 169,
+        "price_per_kg": 430.0,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from plastic moulding operations, approximately 169kg available, grade A, located in Surat, Gujarat"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 174,
+        "price_per_kg": 23.6,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from automobile parts operations, approximately 174kg available, grade A, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "pp_granules",
+      "pet_flakes"
+    ],
+    "verified": false,
+    "rating": 4.9,
+    "total_transactions": 10
+  },
+  {
+    "company_id": "C018",
+    "company_name": "Modern Limited",
+    "sector": "Textile Mill",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.619951434504326,
+    "lng": 88.08774499737343,
+    "surplus": [
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 1432,
+        "price_per_kg": 8.9,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from paper mill operations, approximately 1432kg available, grade A, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap"
+    ],
+    "verified": false,
+    "rating": 4.5,
+    "total_transactions": 72
+  },
+  {
+    "company_id": "C019",
+    "company_name": "Reliance Manufacturing",
+    "sector": "Automobile Parts",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.359971313571155,
+    "lng": 78.78577266451266,
+    "surplus": [
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 538,
+        "price_per_kg": 20.5,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from construction materials operations, approximately 538kg available, grade B, located in Hyderabad, Telangana"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1425,
+        "price_per_kg": 6.3,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from electronics assembly operations, approximately 1425kg available, grade A, located in Hyderabad, Telangana"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 27
+  },
+  {
+    "company_id": "C020",
+    "company_name": "Tata Limited",
+    "sector": "Cement Plant",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.477385790626442,
+    "lng": 78.1913938642913,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1850,
+        "price_per_kg": 2.8,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from chemical plant operations, approximately 1850kg available, grade B, located in Hyderabad, Telangana"
+      },
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 373,
+        "price_per_kg": 44.2,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from plastic moulding operations, approximately 373kg available, grade B, located in Hyderabad, Telangana"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 84
+  },
+  {
+    "company_id": "C021",
+    "company_name": "Kalyan Processing",
+    "sector": "Foundry",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.426128172675952,
+    "lng": 73.9691982772808,
+    "surplus": [
+      {
+        "material_type": "aluminum_scrap",
+        "material_label": "Aluminium Scrap",
+        "quantity_kg": 1183,
+        "price_per_kg": 85.2,
+        "emission_factor": 9.2,
+        "sector": "metals",
+        "description": "Aluminium Scrap surplus from chemical plant operations, approximately 1183kg available, grade B, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "copper_wire",
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 32
+  },
+  {
+    "company_id": "C022",
+    "company_name": "Reliance Recyclers",
+    "sector": "Furniture Manufacturer",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 23.0074787722973,
+    "lng": 75.65464918576433,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1748,
+        "price_per_kg": 5.6,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from automobile parts operations, approximately 1748kg available, grade B, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 71
+  },
+  {
+    "company_id": "C023",
+    "company_name": "Mahindra Limited",
+    "sector": "Plastic Moulding",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 18.86485627134049,
+    "lng": 72.65416731156928,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1901,
+        "price_per_kg": 2.7,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from automobile parts operations, approximately 1901kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 101
+  },
+  {
+    "company_id": "C024",
+    "company_name": "Allied Works",
+    "sector": "Food Processing",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.722286566686126,
+    "lng": 88.61935829354174,
+    "surplus": [
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 1415,
+        "price_per_kg": 19.4,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from cement plant operations, approximately 1415kg available, grade B, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "sawdust",
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 102
+  },
+  {
+    "company_id": "C025",
+    "company_name": "Shree Enterprises",
+    "sector": "Construction Materials",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.977024705481284,
+    "lng": 85.96775737584177,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 1943,
+        "price_per_kg": 36.1,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from paper mill operations, approximately 1943kg available, grade B, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "iron_powder",
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 28
+  },
+  {
+    "company_id": "C026",
+    "company_name": "National Enterprises",
+    "sector": "Steel Mill",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.107389043164577,
+    "lng": 72.51120703061603,
+    "surplus": [
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 506,
+        "price_per_kg": 49.7,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from textile mill operations, approximately 506kg available, grade B, located in Ahmedabad, Gujarat"
+      },
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 866,
+        "price_per_kg": 23.7,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from paint manufacturer operations, approximately 866kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "fly_ash",
+      "iron_powder"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 120
+  },
+  {
+    "company_id": "C027",
+    "company_name": "Mahindra Solutions",
+    "sector": "Paper Mill",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.139725311983685,
+    "lng": 72.8845538358017,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 128,
+        "price_per_kg": 370.7,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from paper mill operations, approximately 128kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "wood_chips",
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 4.4,
+    "total_transactions": 32
+  },
+  {
+    "company_id": "C028",
+    "company_name": "JSW Manufacturing",
+    "sector": "Furniture Manufacturer",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.328462513730823,
+    "lng": 72.95159324596786,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 1456,
+        "price_per_kg": 12.8,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from foundry operations, approximately 1456kg available, grade A, located in Mumbai, Maharashtra"
+      },
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1559,
+        "price_per_kg": 189.2,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from steel mill operations, approximately 1559kg available, grade A, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 115
+  },
+  {
+    "company_id": "C029",
+    "company_name": "Apex Limited",
+    "sector": "Food Processing",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.050769924739342,
+    "lng": 72.85986232788143,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 1185,
+        "price_per_kg": 40.0,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from paper mill operations, approximately 1185kg available, grade B, located in Surat, Gujarat"
+      },
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 1411,
+        "price_per_kg": 70.2,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from furniture manufacturer operations, approximately 1411kg available, grade A, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "hdpe_pellets"
+    ],
+    "verified": false,
+    "rating": 3.9,
+    "total_transactions": 55
+  },
+  {
+    "company_id": "C030",
+    "company_name": "Tata Corp",
+    "sector": "Furniture Manufacturer",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.884364513459477,
+    "lng": 86.10401295324588,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 1096,
+        "price_per_kg": 17.9,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from cement plant operations, approximately 1096kg available, grade B, located in Jamshedpur, Jharkhand"
+      },
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1557,
+        "price_per_kg": 2.7,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from packaging manufacturer operations, approximately 1557kg available, grade B, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "sawdust",
+      "iron_powder"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 86
+  },
+  {
+    "company_id": "C031",
+    "company_name": "Kalyan Manufacturing",
+    "sector": "Electronics Assembly",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.11886460659863,
+    "lng": 72.90895922844264,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 144,
+        "price_per_kg": 387.9,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from electronics assembly operations, approximately 144kg available, grade B, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "steel_scrap"
+    ],
+    "verified": false,
+    "rating": 4.5,
+    "total_transactions": 63
+  },
+  {
+    "company_id": "C032",
+    "company_name": "Modern Works",
+    "sector": "Textile Mill",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.88823200902392,
+    "lng": 80.54547962536773,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 61,
+        "price_per_kg": 6.7,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from paint manufacturer operations, approximately 61kg available, grade A, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 31
+  },
+  {
+    "company_id": "C033",
+    "company_name": "Kalyan Solutions",
+    "sector": "Cement Plant",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 22.954455555486263,
+    "lng": 75.92529139365705,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 1417,
+        "price_per_kg": 423.9,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from plastic moulding operations, approximately 1417kg available, grade A, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "cardboard"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 106
+  },
+  {
+    "company_id": "C034",
+    "company_name": "Supreme Pvt Ltd",
+    "sector": "Furniture Manufacturer",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 22.56314751828878,
+    "lng": 75.82162355595894,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 971,
+        "price_per_kg": 3.7,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from textile mill operations, approximately 971kg available, grade B, located in Indore, MP"
+      },
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 1770,
+        "price_per_kg": 26.0,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from cement plant operations, approximately 1770kg available, grade A, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 42
+  },
+  {
+    "company_id": "C035",
+    "company_name": "Global Manufacturing",
+    "sector": "Paper Mill",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.248459621799952,
+    "lng": 70.82776668430235,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 834,
+        "price_per_kg": 444.4,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from foundry operations, approximately 834kg available, grade A, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 3.8,
+    "total_transactions": 53
+  },
+  {
+    "company_id": "C036",
+    "company_name": "JSW Corp",
+    "sector": "Foundry",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.223480436453816,
+    "lng": 80.45062090256476,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 661,
+        "price_per_kg": 19.4,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from paint manufacturer operations, approximately 661kg available, grade A, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "steel_scrap",
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 34
+  },
+  {
+    "company_id": "C037",
+    "company_name": "Kalyan Corp",
+    "sector": "Automobile Parts",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.326857317552061,
+    "lng": 80.32583566537676,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 1440,
+        "price_per_kg": 67.5,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from foundry operations, approximately 1440kg available, grade A, located in Chennai, Tamil Nadu"
+      },
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 388,
+        "price_per_kg": 49.6,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from construction materials operations, approximately 388kg available, grade A, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 54
+  },
+  {
+    "company_id": "C038",
+    "company_name": "Anand Works",
+    "sector": "Chemical Plant",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.346746548947273,
+    "lng": 79.07038410172783,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 720,
+        "price_per_kg": 34.7,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from steel mill operations, approximately 720kg available, grade B, located in Nagpur, Maharashtra"
+      },
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 741,
+        "price_per_kg": 62.5,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from paper mill operations, approximately 741kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "cardboard"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 44
+  },
+  {
+    "company_id": "C039",
+    "company_name": "Sunrise Limited",
+    "sector": "Construction Materials",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 22.865626965133345,
+    "lng": 72.55553663656768,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1994,
+        "price_per_kg": 166.4,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from paint manufacturer operations, approximately 1994kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "steel_scrap"
+    ],
+    "verified": false,
+    "rating": 4.9,
+    "total_transactions": 59
+  },
+  {
+    "company_id": "C040",
+    "company_name": "United Industries",
+    "sector": "Chemical Plant",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "lat": 30.94647803704745,
+    "lng": 76.10211569062847,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 1521,
+        "price_per_kg": 371.4,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from paint manufacturer operations, approximately 1521kg available, grade B, located in Ludhiana, Punjab"
+      },
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 385,
+        "price_per_kg": 9.1,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from packaging manufacturer operations, approximately 385kg available, grade A, located in Ludhiana, Punjab"
+      }
+    ],
+    "needs": [
+      "sawdust",
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 25
+  },
+  {
+    "company_id": "C041",
+    "company_name": "Modern Limited",
+    "sector": "Cement Plant",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.24504147812368,
+    "lng": 73.87634714718631,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 667,
+        "price_per_kg": 4.4,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from food processing operations, approximately 667kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 82
+  },
+  {
+    "company_id": "C042",
+    "company_name": "Aditya Recyclers",
+    "sector": "Paper Mill",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.109582176651635,
+    "lng": 70.81524804816308,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 937,
+        "price_per_kg": 28.5,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from furniture manufacturer operations, approximately 937kg available, grade A, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.4,
+    "total_transactions": 117
+  },
+  {
+    "company_id": "C043",
+    "company_name": "Aditya Processing",
+    "sector": "Cement Plant",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.36382507996194,
+    "lng": 78.55289902253831,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 599,
+        "price_per_kg": 58.7,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from textile mill operations, approximately 599kg available, grade B, located in Hyderabad, Telangana"
+      },
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 1751,
+        "price_per_kg": 28.3,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from chemical plant operations, approximately 1751kg available, grade A, located in Hyderabad, Telangana"
+      }
+    ],
+    "needs": [
+      "pcb_scrap",
+      "wood_chips"
+    ],
+    "verified": true,
+    "rating": 3.5,
+    "total_transactions": 108
+  },
+  {
+    "company_id": "C044",
+    "company_name": "Anand Corp",
+    "sector": "Automobile Parts",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.31387635102896,
+    "lng": 70.61683385411627,
+    "surplus": [
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 579,
+        "price_per_kg": 20.9,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from food processing operations, approximately 579kg available, grade B, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "pp_granules",
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 4.1,
+    "total_transactions": 71
+  },
+  {
+    "company_id": "C045",
+    "company_name": "Tata Processing",
+    "sector": "Paper Mill",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.919672293177122,
+    "lng": 86.08662361807805,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 967,
+        "price_per_kg": 6.5,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from packaging manufacturer operations, approximately 967kg available, grade A, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "pcb_scrap",
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 67
+  },
+  {
+    "company_id": "C046",
+    "company_name": "Allied Recyclers",
+    "sector": "Textile Mill",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.133730783927163,
+    "lng": 70.79271915232762,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 677,
+        "price_per_kg": 41.6,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from packaging manufacturer operations, approximately 677kg available, grade B, located in Rajkot, Gujarat"
+      },
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 1527,
+        "price_per_kg": 3.6,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from packaging manufacturer operations, approximately 1527kg available, grade B, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "cardboard",
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 5.0,
+    "total_transactions": 67
+  },
+  {
+    "company_id": "C047",
+    "company_name": "Anand Industries",
+    "sector": "Automobile Parts",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "lat": 13.003615380079166,
+    "lng": 77.71305043574611,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 515,
+        "price_per_kg": 24.0,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from chemical plant operations, approximately 515kg available, grade B, located in Bangalore, Karnataka"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 78,
+        "price_per_kg": 23.4,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from construction materials operations, approximately 78kg available, grade A, located in Bangalore, Karnataka"
+      }
+    ],
+    "needs": [
+      "pet_flakes"
+    ],
+    "verified": false,
+    "rating": 4.8,
+    "total_transactions": 62
+  },
+  {
+    "company_id": "C048",
+    "company_name": "Anand Pvt Ltd",
+    "sector": "Packaging Manufacturer",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.713669387179657,
+    "lng": 73.79712446535116,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 747,
+        "price_per_kg": 16.3,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from automobile parts operations, approximately 747kg available, grade B, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "cardboard",
+      "fly_ash"
+    ],
+    "verified": false,
+    "rating": 4.4,
+    "total_transactions": 6
+  },
+  {
+    "company_id": "C049",
+    "company_name": "Kalyan Limited",
+    "sector": "Textile Mill",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.31121612381893,
+    "lng": 79.01642681568794,
+    "surplus": [
+      {
+        "material_type": "aluminum_scrap",
+        "material_label": "Aluminium Scrap",
+        "quantity_kg": 1192,
+        "price_per_kg": 102.5,
+        "emission_factor": 9.2,
+        "sector": "metals",
+        "description": "Aluminium Scrap surplus from food processing operations, approximately 1192kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets",
+      "copper_wire"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 75
+  },
+  {
+    "company_id": "C050",
+    "company_name": "Apex Processing",
+    "sector": "Construction Materials",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.113895347346656,
+    "lng": 80.06461956926589,
+    "surplus": [
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 1990,
+        "price_per_kg": 8.6,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from furniture manufacturer operations, approximately 1990kg available, grade A, located in Chennai, Tamil Nadu"
+      },
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 482,
+        "price_per_kg": 3.7,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from packaging manufacturer operations, approximately 482kg available, grade B, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.5,
+    "total_transactions": 60
+  },
+  {
+    "company_id": "C051",
+    "company_name": "National Associates",
+    "sector": "Textile Mill",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.42454662668953,
+    "lng": 73.00379681598804,
+    "surplus": [
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 629,
+        "price_per_kg": 61.5,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from electronics assembly operations, approximately 629kg available, grade A, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.5,
+    "total_transactions": 119
+  },
+  {
+    "company_id": "C052",
+    "company_name": "Tata Limited",
+    "sector": "Foundry",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.217044180792005,
+    "lng": 72.82411551738058,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 355,
+        "price_per_kg": 13.5,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from paint manufacturer operations, approximately 355kg available, grade A, located in Ahmedabad, Gujarat"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 341,
+        "price_per_kg": 19.2,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from construction materials operations, approximately 341kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 38
+  },
+  {
+    "company_id": "C053",
+    "company_name": "Sunrise Manufacturing",
+    "sector": "Textile Mill",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "lat": 31.1781466613157,
+    "lng": 76.0588751683437,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 214,
+        "price_per_kg": 12.4,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from paper mill operations, approximately 214kg available, grade A, located in Ludhiana, Punjab"
+      },
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1554,
+        "price_per_kg": 2.8,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from chemical plant operations, approximately 1554kg available, grade B, located in Ludhiana, Punjab"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 97
+  },
+  {
+    "company_id": "C054",
+    "company_name": "JSW Associates",
+    "sector": "Paint Manufacturer",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.69913548131461,
+    "lng": 76.8572454437763,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1013,
+        "price_per_kg": 181.0,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from electronics assembly operations, approximately 1013kg available, grade A, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1926,
+        "price_per_kg": 2.8,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from food processing operations, approximately 1926kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "copper_wire"
+    ],
+    "verified": true,
+    "rating": 4.0,
+    "total_transactions": 85
+  },
+  {
+    "company_id": "C055",
+    "company_name": "Allied Industries",
+    "sector": "Electronics Assembly",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.27323587566547,
+    "lng": 73.70813931056533,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 640,
+        "price_per_kg": 65.0,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from paper mill operations, approximately 640kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "pcb_scrap",
+      "cardboard"
+    ],
+    "verified": false,
+    "rating": 4.7,
+    "total_transactions": 110
+  },
+  {
+    "company_id": "C056",
+    "company_name": "Pioneer Associates",
+    "sector": "Electronics Assembly",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.54099432163661,
+    "lng": 78.30883494301017,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 1111,
+        "price_per_kg": 59.4,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from cement plant operations, approximately 1111kg available, grade B, located in Hyderabad, Telangana"
+      }
+    ],
+    "needs": [
+      "steel_scrap",
+      "iron_powder"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 56
+  },
+  {
+    "company_id": "C057",
+    "company_name": "JSW Manufacturing",
+    "sector": "Textile Mill",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 23.01495428363713,
+    "lng": 76.1054579270905,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 1686,
+        "price_per_kg": 35.0,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from construction materials operations, approximately 1686kg available, grade B, located in Indore, MP"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 686,
+        "price_per_kg": 6.1,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from plastic moulding operations, approximately 686kg available, grade A, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 106
+  },
+  {
+    "company_id": "C058",
+    "company_name": "Jindal Processing",
+    "sector": "Food Processing",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.150744534955738,
+    "lng": 79.31579575308788,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 1759,
+        "price_per_kg": 11.9,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from electronics assembly operations, approximately 1759kg available, grade B, located in Nagpur, Maharashtra"
+      },
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 549,
+        "price_per_kg": 3.9,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from construction materials operations, approximately 549kg available, grade B, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets",
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 101
+  },
+  {
+    "company_id": "C059",
+    "company_name": "Pioneer Recyclers",
+    "sector": "Electronics Assembly",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.595748346622326,
+    "lng": 88.2709743650158,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1730,
+        "price_per_kg": 2.6,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from foundry operations, approximately 1730kg available, grade B, located in Kolkata, West Bengal"
+      },
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 661,
+        "price_per_kg": 198.2,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from food processing operations, approximately 661kg available, grade A, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "cardboard",
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 4.3,
+    "total_transactions": 58
+  },
+  {
+    "company_id": "C060",
+    "company_name": "Pioneer Works",
+    "sector": "Paper Mill",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 23.012648401163617,
+    "lng": 76.03313619641995,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 834,
+        "price_per_kg": 3.7,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from cement plant operations, approximately 834kg available, grade B, located in Indore, MP"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 891,
+        "price_per_kg": 19.0,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from foundry operations, approximately 891kg available, grade B, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "wood_chips"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 4
+  },
+  {
+    "company_id": "C061",
+    "company_name": "Premier Manufacturing",
+    "sector": "Electronics Assembly",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.314715174763815,
+    "lng": 78.94721366772605,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 254,
+        "price_per_kg": 25.2,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from electronics assembly operations, approximately 254kg available, grade A, located in Nagpur, Maharashtra"
+      },
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 81,
+        "price_per_kg": 3.2,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from paper mill operations, approximately 81kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.1,
+    "total_transactions": 10
+  },
+  {
+    "company_id": "C062",
+    "company_name": "Tata Processing",
+    "sector": "Foundry",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.32682759846138,
+    "lng": 88.65090263693233,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 1836,
+        "price_per_kg": 45.6,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from food processing operations, approximately 1836kg available, grade A, located in Kolkata, West Bengal"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 190,
+        "price_per_kg": 5.5,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from furniture manufacturer operations, approximately 190kg available, grade B, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "cardboard"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 12
+  },
+  {
+    "company_id": "C063",
+    "company_name": "Mahindra Solutions",
+    "sector": "Paper Mill",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 10.804141877419639,
+    "lng": 76.97449979088925,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 714,
+        "price_per_kg": 3.3,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from chemical plant operations, approximately 714kg available, grade A, located in Coimbatore, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "steel_scrap",
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 4.7,
+    "total_transactions": 21
+  },
+  {
+    "company_id": "C064",
+    "company_name": "Shree Pvt Ltd",
+    "sector": "Furniture Manufacturer",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 20.998186403648127,
+    "lng": 78.9413960248955,
+    "surplus": [
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 1069,
+        "price_per_kg": 9.0,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from construction materials operations, approximately 1069kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "sawdust",
+      "iron_powder"
+    ],
+    "verified": false,
+    "rating": 4.7,
+    "total_transactions": 115
+  },
+  {
+    "company_id": "C065",
+    "company_name": "Anand Pvt Ltd",
+    "sector": "Paint Manufacturer",
+    "city": "Surat",
+    "state": "Gujarat",
+    "lat": 21.05147300232299,
+    "lng": 73.13072413930011,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 1253,
+        "price_per_kg": 16.9,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from paper mill operations, approximately 1253kg available, grade B, located in Surat, Gujarat"
+      }
+    ],
+    "needs": [
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 48
+  },
+  {
+    "company_id": "C066",
+    "company_name": "Bharat Limited",
+    "sector": "Foundry",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "lat": 12.969636371914323,
+    "lng": 77.83709317453624,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 860,
+        "price_per_kg": 3.7,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from food processing operations, approximately 860kg available, grade B, located in Bangalore, Karnataka"
+      },
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 1821,
+        "price_per_kg": 61.2,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from foundry operations, approximately 1821kg available, grade A, located in Bangalore, Karnataka"
+      }
+    ],
+    "needs": [
+      "steel_scrap",
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 4.7,
+    "total_transactions": 77
+  },
+  {
+    "company_id": "C067",
+    "company_name": "Premier Associates",
+    "sector": "Packaging Manufacturer",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 23.046642222443783,
+    "lng": 86.2907043653343,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 563,
+        "price_per_kg": 6.3,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from foundry operations, approximately 563kg available, grade A, located in Jamshedpur, Jharkhand"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 1621,
+        "price_per_kg": 23.1,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from paint manufacturer operations, approximately 1621kg available, grade A, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 74
+  },
+  {
+    "company_id": "C068",
+    "company_name": "Global Recyclers",
+    "sector": "Cement Plant",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.32754465539065,
+    "lng": 71.0850937487268,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 719,
+        "price_per_kg": 3.2,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from construction materials operations, approximately 719kg available, grade A, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 106
+  },
+  {
+    "company_id": "C069",
+    "company_name": "Jindal Corp",
+    "sector": "Steel Mill",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 20.899981725341153,
+    "lng": 79.02494473619723,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1697,
+        "price_per_kg": 159.2,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from packaging manufacturer operations, approximately 1697kg available, grade B, located in Nagpur, Maharashtra"
+      },
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 338,
+        "price_per_kg": 62.4,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from textile mill operations, approximately 338kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 47
+  },
+  {
+    "company_id": "C070",
+    "company_name": "Reliance Limited",
+    "sector": "Textile Mill",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.792691428383666,
+    "lng": 77.18374235342677,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 1432,
+        "price_per_kg": 23.0,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from automobile parts operations, approximately 1432kg available, grade B, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1318,
+        "price_per_kg": 6.7,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from plastic moulding operations, approximately 1318kg available, grade A, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "pet_flakes",
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 83
+  },
+  {
+    "company_id": "C071",
+    "company_name": "Modern Processing",
+    "sector": "Plastic Moulding",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 12.864098429223803,
+    "lng": 80.24288625413334,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 673,
+        "price_per_kg": 43.7,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from packaging manufacturer operations, approximately 673kg available, grade A, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 69
+  },
+  {
+    "company_id": "C072",
+    "company_name": "Bharat Solutions",
+    "sector": "Textile Mill",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.048729851636422,
+    "lng": 80.54103310191086,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1310,
+        "price_per_kg": 5.8,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from chemical plant operations, approximately 1310kg available, grade B, located in Chennai, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap",
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 87
+  },
+  {
+    "company_id": "C073",
+    "company_name": "Kalyan Industries",
+    "sector": "Automobile Parts",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.475976754272768,
+    "lng": 70.64834133829841,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 300,
+        "price_per_kg": 70.4,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from paint manufacturer operations, approximately 300kg available, grade A, located in Rajkot, Gujarat"
+      },
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 981,
+        "price_per_kg": 50.9,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from textile mill operations, approximately 981kg available, grade B, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "iron_powder"
+    ],
+    "verified": false,
+    "rating": 4.3,
+    "total_transactions": 8
+  },
+  {
+    "company_id": "C074",
+    "company_name": "Kalyan Industries",
+    "sector": "Chemical Plant",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.787643675828107,
+    "lng": 88.15071278819231,
+    "surplus": [
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 527,
+        "price_per_kg": 23.7,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from construction materials operations, approximately 527kg available, grade B, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "fly_ash"
+    ],
+    "verified": false,
+    "rating": 3.9,
+    "total_transactions": 22
+  },
+  {
+    "company_id": "C075",
+    "company_name": "Reliance Industries",
+    "sector": "Construction Materials",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.379620504994982,
+    "lng": 73.63275512622768,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 1667,
+        "price_per_kg": 41.3,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from food processing operations, approximately 1667kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 8
+  },
+  {
+    "company_id": "C076",
+    "company_name": "Supreme Enterprises",
+    "sector": "Electronics Assembly",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.102804410523293,
+    "lng": 76.6744903837062,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 1081,
+        "price_per_kg": 11.0,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from food processing operations, approximately 1081kg available, grade B, located in Coimbatore, Tamil Nadu"
+      },
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 138,
+        "price_per_kg": 8.5,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from paint manufacturer operations, approximately 138kg available, grade A, located in Coimbatore, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap",
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 54
+  },
+  {
+    "company_id": "C077",
+    "company_name": "Premier Manufacturing",
+    "sector": "Construction Materials",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.569109599734773,
+    "lng": 77.18234603458062,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 1891,
+        "price_per_kg": 3.5,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from food processing operations, approximately 1891kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.0,
+    "total_transactions": 76
+  },
+  {
+    "company_id": "C078",
+    "company_name": "Allied Processing",
+    "sector": "Paper Mill",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.35593294957917,
+    "lng": 78.32379614461875,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 1674,
+        "price_per_kg": 12.7,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from paint manufacturer operations, approximately 1674kg available, grade A, located in Hyderabad, Telangana"
+      },
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 1390,
+        "price_per_kg": 8.4,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from cement plant operations, approximately 1390kg available, grade A, located in Hyderabad, Telangana"
+      }
+    ],
+    "needs": [
+      "pp_granules",
+      "aluminum_scrap"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 53
+  },
+  {
+    "company_id": "C079",
+    "company_name": "Pioneer Manufacturing",
+    "sector": "Packaging Manufacturer",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "lat": 31.100063133084912,
+    "lng": 75.6132380610222,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 572,
+        "price_per_kg": 59.7,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from construction materials operations, approximately 572kg available, grade B, located in Ludhiana, Punjab"
+      }
+    ],
+    "needs": [
+      "pet_flakes",
+      "sawdust"
+    ],
+    "verified": false,
+    "rating": 4.6,
+    "total_transactions": 103
+  },
+  {
+    "company_id": "C080",
+    "company_name": "JSW Industries",
+    "sector": "Chemical Plant",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.206046054734806,
+    "lng": 78.99918771141589,
+    "surplus": [
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 774,
+        "price_per_kg": 6.7,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from cement plant operations, approximately 774kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap",
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 3.8,
+    "total_transactions": 84
+  },
+  {
+    "company_id": "C081",
+    "company_name": "Anand Limited",
+    "sector": "Textile Mill",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lat": 11.201132822691406,
+    "lng": 77.162893096797,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 1189,
+        "price_per_kg": 43.2,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from cement plant operations, approximately 1189kg available, grade B, located in Coimbatore, Tamil Nadu"
+      }
+    ],
+    "needs": [
+      "fly_ash"
+    ],
+    "verified": true,
+    "rating": 4.7,
+    "total_transactions": 78
+  },
+  {
+    "company_id": "C082",
+    "company_name": "Mahindra Industries",
+    "sector": "Construction Materials",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.92601762392186,
+    "lng": 77.14229265685684,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 1489,
+        "price_per_kg": 41.0,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from steel mill operations, approximately 1489kg available, grade A, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "iron_powder",
+      "pet_flakes"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 81
+  },
+  {
+    "company_id": "C083",
+    "company_name": "Tata Solutions",
+    "sector": "Cement Plant",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.340844454382033,
+    "lng": 72.93543426332306,
+    "surplus": [
+      {
+        "material_type": "pp_granules",
+        "material_label": "PP Granules",
+        "quantity_kg": 979,
+        "price_per_kg": 59.0,
+        "emission_factor": 1.96,
+        "sector": "plastics",
+        "description": "PP Granules surplus from steel mill operations, approximately 979kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 96
+  },
+  {
+    "company_id": "C084",
+    "company_name": "Aditya Works",
+    "sector": "Chemical Plant",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "lat": 12.800941379202648,
+    "lng": 77.60200778348066,
+    "surplus": [
+      {
+        "material_type": "hdpe_pellets",
+        "material_label": "HDPE Plastic Pellets",
+        "quantity_kg": 1405,
+        "price_per_kg": 56.7,
+        "emission_factor": 1.73,
+        "sector": "plastics",
+        "description": "HDPE Plastic Pellets surplus from food processing operations, approximately 1405kg available, grade B, located in Bangalore, Karnataka"
+      }
+    ],
+    "needs": [
+      "cardboard"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 86
+  },
+  {
+    "company_id": "C085",
+    "company_name": "Anand Enterprises",
+    "sector": "Steel Mill",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.47609060622333,
+    "lng": 77.10093119716801,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 162,
+        "price_per_kg": 32.4,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from chemical plant operations, approximately 162kg available, grade B, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 1986,
+        "price_per_kg": 20.1,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from construction materials operations, approximately 1986kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "cardboard",
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 3.7,
+    "total_transactions": 68
+  },
+  {
+    "company_id": "C086",
+    "company_name": "National Solutions",
+    "sector": "Food Processing",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "lat": 30.8585705717805,
+    "lng": 75.79995373070314,
+    "surplus": [
+      {
+        "material_type": "aluminum_scrap",
+        "material_label": "Aluminium Scrap",
+        "quantity_kg": 136,
+        "price_per_kg": 93.2,
+        "emission_factor": 9.2,
+        "sector": "metals",
+        "description": "Aluminium Scrap surplus from electronics assembly operations, approximately 136kg available, grade B, located in Ludhiana, Punjab"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "pcb_scrap"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 51
+  },
+  {
+    "company_id": "C087",
+    "company_name": "Shree Works",
+    "sector": "Food Processing",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.01626988978965,
+    "lng": 72.62488825248973,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1753,
+        "price_per_kg": 190.2,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from steel mill operations, approximately 1753kg available, grade A, located in Mumbai, Maharashtra"
+      },
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 230,
+        "price_per_kg": 7.8,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from packaging manufacturer operations, approximately 230kg available, grade B, located in Mumbai, Maharashtra"
+      }
+    ],
+    "needs": [
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.6,
+    "total_transactions": 28
+  },
+  {
+    "company_id": "C088",
+    "company_name": "Mahindra Solutions",
+    "sector": "Foundry",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.57883400939829,
+    "lng": 70.88946578570173,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 283,
+        "price_per_kg": 12.1,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from textile mill operations, approximately 283kg available, grade A, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": false,
+    "rating": 3.7,
+    "total_transactions": 32
+  },
+  {
+    "company_id": "C089",
+    "company_name": "Pioneer Pvt Ltd",
+    "sector": "Cement Plant",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.06074128997271,
+    "lng": 72.61908085382389,
+    "surplus": [
+      {
+        "material_type": "pcb_scrap",
+        "material_label": "PCB / E-Waste Scrap",
+        "quantity_kg": 1392,
+        "price_per_kg": 157.1,
+        "emission_factor": 5.4,
+        "sector": "electronic",
+        "description": "PCB / E-Waste Scrap surplus from cement plant operations, approximately 1392kg available, grade B, located in Ahmedabad, Gujarat"
+      }
+    ],
+    "needs": [
+      "used_lubricant"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 82
+  },
+  {
+    "company_id": "C090",
+    "company_name": "Supreme Manufacturing",
+    "sector": "Chemical Plant",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.681145491867873,
+    "lng": 76.82506434734266,
+    "surplus": [
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 955,
+        "price_per_kg": 436.6,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from cement plant operations, approximately 955kg available, grade A, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 612,
+        "price_per_kg": 18.5,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from steel mill operations, approximately 612kg available, grade A, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap",
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 3.9,
+    "total_transactions": 82
+  },
+  {
+    "company_id": "C091",
+    "company_name": "Aditya Limited",
+    "sector": "Furniture Manufacturer",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.385543679041536,
+    "lng": 88.42690350044204,
+    "surplus": [
+      {
+        "material_type": "mixed_plastic",
+        "material_label": "Mixed Plastic Scrap",
+        "quantity_kg": 1671,
+        "price_per_kg": 19.3,
+        "emission_factor": 1.5,
+        "sector": "plastics",
+        "description": "Mixed Plastic Scrap surplus from automobile parts operations, approximately 1671kg available, grade A, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "wood_chips",
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 4.9,
+    "total_transactions": 57
+  },
+  {
+    "company_id": "C092",
+    "company_name": "Apex Solutions",
+    "sector": "Steel Mill",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.771162073470176,
+    "lng": 73.78914993571388,
+    "surplus": [
+      {
+        "material_type": "cardboard",
+        "material_label": "Cardboard / OCC",
+        "quantity_kg": 130,
+        "price_per_kg": 11.1,
+        "emission_factor": 0.94,
+        "sector": "paper",
+        "description": "Cardboard / OCC surplus from electronics assembly operations, approximately 130kg available, grade B, located in Pune, Maharashtra"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 949,
+        "price_per_kg": 6.0,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from food processing operations, approximately 949kg available, grade A, located in Pune, Maharashtra"
+      }
+    ],
+    "needs": [
+      "copper_wire"
+    ],
+    "verified": true,
+    "rating": 4.5,
+    "total_transactions": 6
+  },
+  {
+    "company_id": "C093",
+    "company_name": "Premier Solutions",
+    "sector": "Packaging Manufacturer",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.854243708751852,
+    "lng": 85.98775702835059,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 1439,
+        "price_per_kg": 43.5,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from chemical plant operations, approximately 1439kg available, grade B, located in Jamshedpur, Jharkhand"
+      },
+      {
+        "material_type": "aluminum_scrap",
+        "material_label": "Aluminium Scrap",
+        "quantity_kg": 1532,
+        "price_per_kg": 105.0,
+        "emission_factor": 9.2,
+        "sector": "metals",
+        "description": "Aluminium Scrap surplus from food processing operations, approximately 1532kg available, grade A, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "wood_chips"
+    ],
+    "verified": true,
+    "rating": 5.0,
+    "total_transactions": 89
+  },
+  {
+    "company_id": "C094",
+    "company_name": "Supreme Manufacturing",
+    "sector": "Furniture Manufacturer",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.806373624047964,
+    "lng": 77.10759309185369,
+    "surplus": [
+      {
+        "material_type": "kraft_paper",
+        "material_label": "Kraft Paper Waste",
+        "quantity_kg": 684,
+        "price_per_kg": 8.1,
+        "emission_factor": 0.86,
+        "sector": "paper",
+        "description": "Kraft Paper Waste surplus from furniture manufacturer operations, approximately 684kg available, grade A, located in Delhi, Delhi"
+      },
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 1671,
+        "price_per_kg": 3.8,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from construction materials operations, approximately 1671kg available, grade B, located in Delhi, Delhi"
+      }
+    ],
+    "needs": [
+      "aluminum_scrap"
+    ],
+    "verified": false,
+    "rating": 4.0,
+    "total_transactions": 27
+  },
+  {
+    "company_id": "C095",
+    "company_name": "Supreme Industries",
+    "sector": "Furniture Manufacturer",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "lat": 22.205958623178567,
+    "lng": 70.96198456266835,
+    "surplus": [
+      {
+        "material_type": "iron_powder",
+        "material_label": "Iron Powder",
+        "quantity_kg": 208,
+        "price_per_kg": 20.7,
+        "emission_factor": 1.6,
+        "sector": "metals",
+        "description": "Iron Powder surplus from cement plant operations, approximately 208kg available, grade B, located in Rajkot, Gujarat"
+      },
+      {
+        "material_type": "copper_wire",
+        "material_label": "Copper Wire Scrap",
+        "quantity_kg": 257,
+        "price_per_kg": 421.0,
+        "emission_factor": 3.8,
+        "sector": "metals",
+        "description": "Copper Wire Scrap surplus from plastic moulding operations, approximately 257kg available, grade A, located in Rajkot, Gujarat"
+      }
+    ],
+    "needs": [
+      "hdpe_pellets"
+    ],
+    "verified": false,
+    "rating": 4.1,
+    "total_transactions": 20
+  },
+  {
+    "company_id": "C096",
+    "company_name": "Kalyan Enterprises",
+    "sector": "Cement Plant",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 21.294921910857262,
+    "lng": 79.05755677782001,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 1435,
+        "price_per_kg": 40.5,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from electronics assembly operations, approximately 1435kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "pp_granules"
+    ],
+    "verified": true,
+    "rating": 4.0,
+    "total_transactions": 103
+  },
+  {
+    "company_id": "C097",
+    "company_name": "JSW Recyclers",
+    "sector": "Paint Manufacturer",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "lat": 22.62441863886681,
+    "lng": 86.26569806854604,
+    "surplus": [
+      {
+        "material_type": "pet_flakes",
+        "material_label": "PET Flakes",
+        "quantity_kg": 952,
+        "price_per_kg": 44.5,
+        "emission_factor": 2.15,
+        "sector": "plastics",
+        "description": "PET Flakes surplus from chemical plant operations, approximately 952kg available, grade B, located in Jamshedpur, Jharkhand"
+      },
+      {
+        "material_type": "wood_chips",
+        "material_label": "Wood Chips",
+        "quantity_kg": 1643,
+        "price_per_kg": 5.8,
+        "emission_factor": 0.72,
+        "sector": "organic",
+        "description": "Wood Chips surplus from plastic moulding operations, approximately 1643kg available, grade B, located in Jamshedpur, Jharkhand"
+      }
+    ],
+    "needs": [
+      "sawdust"
+    ],
+    "verified": true,
+    "rating": 3.6,
+    "total_transactions": 61
+  },
+  {
+    "company_id": "C098",
+    "company_name": "Supreme Recyclers",
+    "sector": "Paint Manufacturer",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.53508353611699,
+    "lng": 88.63174795780705,
+    "surplus": [
+      {
+        "material_type": "sawdust",
+        "material_label": "Sawdust",
+        "quantity_kg": 1793,
+        "price_per_kg": 3.5,
+        "emission_factor": 0.65,
+        "sector": "organic",
+        "description": "Sawdust surplus from packaging manufacturer operations, approximately 1793kg available, grade B, located in Kolkata, West Bengal"
+      },
+      {
+        "material_type": "used_lubricant",
+        "material_label": "Used Lubricant Oil",
+        "quantity_kg": 1612,
+        "price_per_kg": 22.5,
+        "emission_factor": 2.85,
+        "sector": "chemical",
+        "description": "Used Lubricant Oil surplus from electronics assembly operations, approximately 1612kg available, grade B, located in Kolkata, West Bengal"
+      }
+    ],
+    "needs": [
+      "cardboard"
+    ],
+    "verified": true,
+    "rating": 4.2,
+    "total_transactions": 44
+  },
+  {
+    "company_id": "C099",
+    "company_name": "Mahindra Processing",
+    "sector": "Automobile Parts",
+    "city": "Indore",
+    "state": "MP",
+    "lat": 22.61081092526984,
+    "lng": 75.61714987463583,
+    "surplus": [
+      {
+        "material_type": "steel_scrap",
+        "material_label": "Steel Scrap",
+        "quantity_kg": 815,
+        "price_per_kg": 35.0,
+        "emission_factor": 1.85,
+        "sector": "metals",
+        "description": "Steel Scrap surplus from packaging manufacturer operations, approximately 815kg available, grade B, located in Indore, MP"
+      }
+    ],
+    "needs": [
+      "mixed_plastic",
+      "kraft_paper"
+    ],
+    "verified": true,
+    "rating": 4.0,
+    "total_transactions": 18
+  },
+  {
+    "company_id": "C100",
+    "company_name": "Pioneer Pvt Ltd",
+    "sector": "Food Processing",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "lat": 20.84895071898337,
+    "lng": 78.83573546276243,
+    "surplus": [
+      {
+        "material_type": "fly_ash",
+        "material_label": "Fly Ash",
+        "quantity_kg": 1475,
+        "price_per_kg": 3.3,
+        "emission_factor": 0.48,
+        "sector": "industrial",
+        "description": "Fly Ash surplus from cement plant operations, approximately 1475kg available, grade A, located in Nagpur, Maharashtra"
+      }
+    ],
+    "needs": [
+      "used_lubricant",
+      "mixed_plastic"
+    ],
+    "verified": true,
+    "rating": 4.8,
+    "total_transactions": 70
+  }
+]
