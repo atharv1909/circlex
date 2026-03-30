@@ -6,10 +6,9 @@ Deploy to Render: https://render.com
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional
 import numpy as np
 import pandas as pd
-import json
 import os
 import math
 
@@ -18,14 +17,18 @@ _embed_model = None
 _embeddings  = None
 _df          = None
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def get_resources():
     global _embed_model, _embeddings, _df
     if _embed_model is None:
         from sentence_transformers import SentenceTransformer
         print("Loading embedding model...")
         _embed_model = SentenceTransformer('all-MiniLM-L6-v2')
-        _embeddings  = np.load(os.path.join("data", "embeddings.npy"))
-        _df          = pd.read_csv(os.path.join("data", "companies.csv"))
+
+        _embeddings = np.load(os.path.join(BASE_DIR, "data", "embeddings.npy"))
+        _df = pd.read_csv(os.path.join(BASE_DIR, "data", "companies.csv"))
+
         print(f"Loaded {len(_df)} listings, embeddings shape: {_embeddings.shape}")
     return _embed_model, _embeddings, _df
 
@@ -81,7 +84,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ─── Request/Response models ───
+# ─── Request models ───
 class MatchRequest(BaseModel):
     material_description: str
     quantity_kg: float
@@ -105,27 +108,59 @@ def haversine(lat1, lng1, lat2, lng2):
          math.sin(dlng/2)**2)
     return round(R * 2 * math.asin(math.sqrt(a)), 1)
 
-def do_match(query: str, top_k: int, query_lat: float, query_lng: float):
+# 🔥 NEW: multi-factor scoring
+def compute_score(sim, dist, price, qty_available, qty_requested):
+    dist_score = 1 / (1 + dist / 500)
+    price_score = 1 / (1 + price / 100)
+    qty_score = min(qty_available / (qty_requested + 1), 1)
+
+    return (
+        0.5 * sim +
+        0.2 * dist_score +
+        0.15 * price_score +
+        0.15 * qty_score
+    )
+
+def do_match(query: str, top_k: int, query_lat: float, query_lng: float, qty_requested: float):
     from sklearn.metrics.pairwise import cosine_similarity
     model, embeddings, df = get_resources()
 
     query_emb = model.encode([query])
     scores    = cosine_similarity(query_emb, embeddings)[0]
-    top_idx   = np.argsort(scores)[::-1]
 
-    results = []
-    seen    = set()
-    for idx in top_idx:
+    enriched_results = []
+    seen = set()
+
+    for idx in np.argsort(scores)[::-1]:
         row = df.iloc[idx]
         cid = row["company_id"]
+
         if cid in seen:
             continue
         seen.add(cid)
 
         dist = haversine(query_lat, query_lng, row["lat"], row["lng"])
 
+        final_score = compute_score(
+            sim=scores[idx],
+            dist=dist,
+            price=row["price_per_kg"],
+            qty_available=row["quantity_kg"],
+            qty_requested=qty_requested
+        )
+
+        enriched_results.append((final_score, idx))
+
+    # sort by final score
+    enriched_results.sort(reverse=True, key=lambda x: x[0])
+
+    results = []
+    for score, idx in enriched_results[:top_k]:
+        row = df.iloc[idx]
+        dist = haversine(query_lat, query_lng, row["lat"], row["lng"])
+
         results.append({
-            "company_id":      cid,
+            "company_id":      row["company_id"],
             "company_name":    row["company_name"],
             "sector":          row["sector"],
             "city":            row["city"],
@@ -137,18 +172,17 @@ def do_match(query: str, top_k: int, query_lat: float, query_lng: float):
             "quantity_kg":     int(row["quantity_kg"]),
             "price_per_kg":    float(row["price_per_kg"]),
             "emission_factor": float(row["emission_factor"]),
-            "confidence_score":round(float(scores[idx]) * 100, 1),
+            "confidence_score": round(score * 100, 1),  # now real combined score
             "verified":        bool(row["verified"]),
             "rating":          float(row["rating"]),
             "distance_km":     dist,
         })
-        if len(results) == top_k:
-            break
+
     return results
 
 def do_impact(material_type: str, quantity_kg: float, price_per_kg: float):
-    factor        = EMISSION_FACTORS.get(material_type, 1.2)
-    co2_saved     = quantity_kg * factor
+    factor    = EMISSION_FACTORS.get(material_type, 1.2)
+    co2_saved = quantity_kg * factor
     return {
         "material_label":          MATERIAL_LABELS.get(material_type, material_type),
         "quantity_kg":             quantity_kg,
@@ -175,13 +209,16 @@ def match_materials(req: MatchRequest):
         raise HTTPException(400, "material_description cannot be empty")
     if req.quantity_kg <= 0:
         raise HTTPException(400, "quantity_kg must be positive")
+
     try:
         matches = do_match(
             req.material_description,
             req.top_k,
             req.lat,
-            req.lng
+            req.lng,
+            req.quantity_kg  # ✅ now used
         )
+
         return {
             "status":   "success",
             "query":    req.material_description,
@@ -202,7 +239,6 @@ def get_impact(req: ImpactRequest):
 
 @app.get("/materials")
 def list_materials():
-    """Returns the list of supported materials — used to populate dropdowns."""
     return [
         {"type": k, "label": v, "emission_factor": EMISSION_FACTORS[k]}
         for k, v in MATERIAL_LABELS.items()
@@ -210,7 +246,6 @@ def list_materials():
 
 @app.get("/stats")
 def platform_stats():
-    """Platform-level aggregate stats for the dashboard."""
     try:
         _, _, df = get_resources()
         total_co2 = float((df["quantity_kg"] * df["emission_factor"]).sum())
