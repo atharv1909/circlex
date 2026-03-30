@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: circlex-api
-    env: python
-    plan: free
-    buildCommand: "cd backend && pip install -r requirements.txt"
-    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
- 
