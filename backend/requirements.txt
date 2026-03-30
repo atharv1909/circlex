@@ -1,4 +1,5 @@
 --prefer-binary
+--extra-index-url https://download.pytorch.org/whl/cpu
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
 
@@ -8,7 +9,7 @@ scikit-learn==1.4.2
 
 # Transformers stack
 sentence-transformers==2.7.0
-torch==2.2.2
+torch==2.2.2+cpu
 
 # Optional but recommended
 pydantic==2.7.1
